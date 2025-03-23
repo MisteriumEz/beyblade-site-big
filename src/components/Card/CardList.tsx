@@ -178,10 +178,14 @@ function ExpandableCard({ onDelete, onSave, card }: ExpandableCardProps) {
                 }}
               >
                 <Button variant="contained" type="submit">
-                  Save
+                  Salvar
                 </Button>
-                <Button variant="outlined" onClick={handleCancel}>
-                  Cancel
+                <Button
+                  variant="outlined"
+                  onClick={handleCancel}
+                  sx={{ borderColor: "red", color: "red" }}
+                >
+                  Cancelar
                 </Button>
               </Box>
             </Box>
