@@ -1,6 +1,6 @@
 {
-  "name": "https://misteriumez.github.io/beyblade-site-big/",
-  "homepage": "https://beyblade-site-big.web.app",
+  "name": "beyblade-site-big",
+  "homepage": "https://misteriumez.github.io/beyblade-site-big/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
