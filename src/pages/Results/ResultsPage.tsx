@@ -7,7 +7,7 @@ const ResultsPage: React.FC = () => {
   return (
     <Box>
       <VersusList />
-      <BeySpin src="src/images/DranzerSpiral.png" alt="Rotating Icon" />
+      <BeySpin src="images/DranzerSpiral.png" alt="Rotating Icon" />
     </Box>
   );
 };

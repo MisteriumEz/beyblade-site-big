@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -69,8 +69,8 @@ function ExpandableCard({ onDelete, onSave, card }: ExpandableCardProps) {
             height="140"
             image={
               checkImageExists(getValues("blade")?.label)
-                ? `src/images/${getValues("blade")?.label}.png`
-                : "src/images/NoImage.png"
+                ? `images/${getValues("blade")?.label}.png`
+                : "images/NoImage.png"
             }
             alt={getValues("blade")?.label || "blade image"}
           />

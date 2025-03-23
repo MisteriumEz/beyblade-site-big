@@ -7,7 +7,7 @@ const DeckPage: React.FC = () => {
   return (
     <Box sx={{ display: "flex", justifyContent: "center", width: "100%" }}>
       <CardList />
-      <BeySpin src="src/images/DrigerSlash.png" alt="Rotating Icon" />
+      <BeySpin src="images/DrigerSlash.png" alt="Rotating Icon" />
     </Box>
   );
 };

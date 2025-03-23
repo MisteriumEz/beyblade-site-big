@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from "react";
 import {
   TextField,
@@ -45,13 +46,12 @@ const LoginPage: React.FC = () => {
 
         console.log(user);
         console.log(token);
+        console.log(error);
       })
       .catch((error) => {
         console.log(error);
-        // const errorCode = error.code;
-        // const errorMessage = error.message;
-        // const email = error.email;
-        // const credential = GoogleAuthProvider.credentialFromError(error);
+
+        login();
       });
   }
 
